@@ -1,6 +1,6 @@
 import { Text, View } from 'react-native'
 
-export default function NewView() {
+export default function CreatePostScreen() {
   return (
     <View>
       <Text>New</Text>
