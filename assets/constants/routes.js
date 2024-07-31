@@ -1,17 +1,30 @@
+import images from '#/images'
+import {
+  SvgHomeIcon,
+  SvgLikeIcon,
+  SvgNewIcon,
+  SvgSearchIcon
+} from '#/svg/icons'
+
 export const tabs_routes = [
   {
     name: 'index',
-    title: 'For you',
-    icon: 'home'
+    icon: <SvgHomeIcon />
+  },
+  {
+    name: 'search',
+    icon: <SvgSearchIcon />
   },
   {
     name: 'new',
-    title: 'Create Post',
-    icon: 'plus-square-o'
+    icon: <SvgNewIcon />
+  },
+  {
+    name: 'like',
+    icon: <SvgLikeIcon />
   },
   {
     name: 'profile',
-    title: 'Profile',
-    icon: 'user'
+    image: images.user
   }
 ]

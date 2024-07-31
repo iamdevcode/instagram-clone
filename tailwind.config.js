@@ -1,5 +1,7 @@
-export const content = ['./src/**/*.{jsx,}']
-export const theme = {
-  extend: {}
+module.exports = {
+  content: ['./src/**/*.{jsx,}'],
+  theme: {
+    extend: {}
+  },
+  plugins: []
 }
-export const plugins = []
